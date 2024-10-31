@@ -1,0 +1,30 @@
+/* Style for Header */
+header {
+    background-color: #94c1ee;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Style for Main Content */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #699;
+    border: 1px solid #810b0b;
+    border-radius: 8px;
+}
+
+/* Highlight rows with missing Metascore */
+.highlight {
+    background-color: #ffcccc; /* Light red background for rows missing Metascore */
+}
+
+/* Style for Footer */
+footer {
+    background-color: #94c1ee;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}

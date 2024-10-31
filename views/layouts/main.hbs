@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+    {{> header }} <!-- Include the header partial -->
+
+    <main>
+        {{{body}}} <!-- Dynamic content will be rendered here -->
+    </main>
+
+    {{> footer }} <!-- Include the footer partial -->
+</body>
+</html>

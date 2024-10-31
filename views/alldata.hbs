@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Movie ID</th>
+      <th>Title</th>
+      <th>Year</th>
+      <th>Genre</th>
+      <th>Director</th>
+      <th>Metascore</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each movies}}
+    <tr class="{{highlightRow this.Metascore}}">
+      {{> movieDetails this}} <!-- Use movieDetails partial to render movie details -->
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
